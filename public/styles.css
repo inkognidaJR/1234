@@ -23,3 +23,49 @@ body.dark-theme .cart-item,body.dark-theme .admin-product-row,body.dark-theme .a
 /* Burgundy brand palette */
 :root{--green:#781d3b;--green2:#ead5dc;--lime:#e7c4cf}
 body.dark-theme{--green:#d88da7;--green2:#422632;--lime:#552638}
+
+
+
+/* Контактная информация в подвале сайта */
+.footer-contact {
+  margin-top: 12px;
+  color: #ead5dc;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.footer-contact p {
+  margin: 6px 0;
+}
+
+.footer-contact strong {
+  color: #fffafb;
+  font-weight: 700;
+}
+
+.footer-contact a {
+  color: #fffafb;
+  text-decoration: underline;
+  text-decoration-color: #d88da7;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.footer-contact a:hover {
+  color: #e7c4cf;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 760px) {
+  .footer-contact {
+    width: 100%;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+
+  .footer-contact p {
+    margin: 8px 0;
+  }
+}
